@@ -111,7 +111,16 @@ header {
 
     font-family: 'SoDo Sans';
 
+
     font-size: 10px;
+
+
+}
+
+.localize a {
+
+    text-decoration: none;
+    color: black;
 
 
 }
@@ -132,10 +141,22 @@ header {
 
 .botao_entrar button:hover {
 
-    opacity: 10;
-    right: 0;
+    opacity: 60%;
+    text-decoration: none;
+   
 
 }
+
+
+.botao_entrar button a{
+
+    color: black;
+    text-decoration: none;
+   
+
+}
+
+
 
 
 .botao_participe button{
@@ -153,6 +174,22 @@ header {
 
 }
 
+.botao_participe button:hover{
+
+    opacity: 80%;
+
+
+}
+
+.botao_participe button a {
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
 .imagem_banner img {
     display: flex;
     align-items: center;
@@ -164,6 +201,39 @@ header {
   
 
 }
+
+.botao_saiba_01 {
+
+    width: 200px;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+    border: 1px;
+    
+
+}
+
+
+
+.botao_saiba_01:hover{
+
+
+  
+        background: rgba(0,0,0,.06);
+        transform: scale(.90);  
+    
+    
+}
+
+.botao_saiba_01 a {
+
+    text-decoration: none;
+    color: #32312d;;
+
+}
+
+
+
 
 .fundo_experiencia {
     display: flex;
@@ -211,15 +281,6 @@ header {
 
 }
 
-.botao_saiba_01 {
-
-
-    margin-top: 10px;
-    font-size: 14px;
-    margin-left: 20px;
-    border: 1px;
-
-}
 
 
 .funcionamento {
@@ -409,6 +470,7 @@ width: 100%;
 .redes-sociais {
     margin-top: 60px;
     margin-left: 70px;
+    
 
 }
 
@@ -420,12 +482,14 @@ width: 100%;
 
 
 .politicas a{
+    width: 200px;  /* ajusta largura */
     text-decoration: none;
     color: rgb(42, 48, 48);
     margin-top: 50px;
-    margin-left: 20px;
-    padding-left: 50px;
+    margin-left:10px;
+    padding-left: 70px;
     flex-wrap: nowrap;
+
     
 }
 
